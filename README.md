@@ -14,7 +14,7 @@
 # Clonar el repositorio para editar.
 -Clonar el repositorio y asignamos al nuevo repo ya creado en git
 ```bash
-#Recordar cambiar el nombre del proyecto en package.json
+#Recordar cambiar el nombre del proyecto en package.json y en los .evn.xxx
 
 git clone https://github.com/martinprado1000/nest-05-ecommerce_part2.git nuevoNombre
 
@@ -62,7 +62,7 @@ $ npm run build
 $ npm run start:prod
 ```
 
-### Esta aplicacion es para administrar prodcutos.
+### Esta aplicacion es para administrar productos.
 Configuraciones:
 
 * Entidades: productos, seed
@@ -75,8 +75,6 @@ Configuraciones:
 
 * Solo configuración de la db en docker.
 
---Es la parte 2 del ecommerce.--
-
 * Aplanamos el los nombres de retorno de las url.
 
 * Creamos una segunda tabla relacionada para las imagenes, la eliminacion se hizo con queryRunner ( elimina si todo salio bien sino hace un rollback)
@@ -84,7 +82,6 @@ Configuraciones:
 * Subimos archivo a file sistem, carpeta static.
 Al subir los archivos a la carpeta static estan protegidos y los podemos controllar desde los endpoitn con decoradores de autenticación. Estando en la carpeta public son accesibles ingresando la ruta.
  ** Esta carpeta implementa archivo .gitkeep (Es para que git le de seguimiento a esa carpeta aunque este vacia)**
-
 
 
 
