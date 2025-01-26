@@ -75,9 +75,13 @@ Configuraciones:
 
 * Solo configuración de la db en docker.
 
+* --------------------- Part 2 ------------------------------
+
 * Aplanamos el los nombres de retorno de las url.
 
 * Creamos una segunda tabla relacionada para las imagenes, la eliminacion se hizo con queryRunner ( elimina si todo salio bien sino hace un rollback)
+
+* --------------------- Part 3 ------------------------------ 
 
 * Subimos archivo a file sistem, carpeta static.
 Al subir los archivos a la carpeta static estan protegidos y los podemos controllar desde los endpoitn con decoradores de autenticación. Estando en la carpeta public son accesibles ingresando la ruta.
